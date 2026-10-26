@@ -28,6 +28,9 @@ Chicles:
 		 Primer numero: Total de chicles que nos comemos
 		 Segundo numero: Total de envoltorios que tenemos
 	Ejemplo:
+		 (entrada) 10 5 10
+		 (operacion) 10/5=2
+		 (salida) Tienes dos chicles gratis por los 5 10 envoltorios
 		 
 -----------------------
 Acuarios:
