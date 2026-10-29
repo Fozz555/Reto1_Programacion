@@ -1,1 +1,15 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        System.out.printf("Indica el numero de chicles: ");
+        Scanner sc = new Scanner(System.in);
 
+        int num_envoltorios = sc.nextInt();
+        int can_chicles_envol = sc.nextInt();
+        int chicles = sc.nextInt();
+
+        System.out.println(num_envoltorios);
+
+
+    }
+}
