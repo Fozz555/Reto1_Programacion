@@ -35,6 +35,16 @@ Chicles:
 -----------------------
 Acuarios:
 	Posible solucion:
-	Basicos:
+	Basicos: Entrada por usuario
+			Número de casos de prueba mayor o igual que 0
+			Número de compartimentos mayor que 0
+			Capacidad del compartimento más grande mayor que 0
+			Diferencia entre compartimentos mayor o igual que 0
+			Ningún número será mayor de 10000
 	Entrada:
+			Número de casos de prueba
+			Número de compartimentos del acuario
+			Capacidad en litros del compartimento más grande
+			Diferencia de litros entre dos compartimentos seguidos
 	Salida:
+			Número total de litros necesarios para llenar el acuario en cada caso de prueba.
