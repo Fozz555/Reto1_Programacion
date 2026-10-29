@@ -8,12 +8,19 @@ public class Main {
         int can_chicles_envol = sc.nextInt();
         System.out.printf("Indica el numero de chicles que has comprado: ");
         int chicles = sc.nextInt();
-        
-        if (num_envoltorios == 0) || (can_chicles_envol == 0) || (chicles == 0);
-        {
-            
-        }
 
+
+
+        int chicles_final = chicles+chicles /num_envoltorios;
+        System.out.println(chicles_final);
+
+
+
+
+        //if ((num_envoltorios == 0) || (can_chicles_envol == 0) || (chicles == 0));
+        //{
+           //System.out.print("RUINA");
+        //}
 
     }
 }
