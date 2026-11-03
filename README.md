@@ -23,7 +23,7 @@ Chicles:
 	Entrada:
 		 Primer numero: Cantidad de envoltorios
 		 Segundo numero: Cantidad de chicles por x envoltorios
-		 Tercer numero: Canntidad de chicles que compramos
+		 Tercer numero: Cantidad de chicles que compramos
 	Salida:
 		 Primer numero: Total de chicles que nos comemos
 		 Segundo numero: Total de envoltorios que tenemos
