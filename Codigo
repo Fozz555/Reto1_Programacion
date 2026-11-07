@@ -1,1 +1,17 @@
-
+//Andres Ariza y Victor Foz
+import java.util.Scanner;
+public class Reto3 {
+    public static void reto3(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int numero = sc.nextInt();
+        while (numero != 0) {
+            String texto = String.valueOf(numero);
+            int suma = 0;
+            while (texto.length() > 0) {
+                int num = Integer.parseInt(texto);
+                suma = suma + num;
+                texto = texto.substring(1);
+            }
+        }
+    }
+}
