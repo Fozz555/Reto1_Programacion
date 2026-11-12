@@ -1,38 +1,29 @@
 // Victor Foz y Andrés Ariza 
 import java.util.Scanner;
-
 public class LosProblemasDeSerRico {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
-
         int casos;
         int compartimentos;
         int litros;
         int diferencia;
         int total;
-
         //pedimos el numero de casos que vamos a realizar
         casos = teclado.nextInt();
-
         //repetimos el ejercicio tantas veces como casos haya
         for (int i = 1; i <= casos; i++) {
-
             //leemos los datos del acuario
             compartimentos = teclado.nextInt();
             litros = teclado.nextInt();
             diferencia = teclado.nextInt();
-
             //empezamos el total desde cero
             total = 0;
-
             //vamos sumando los litros de cada compartimento
             for (int j = 1; j <= compartimentos; j++) {
                 total = total + litros;
-
                 //restamos la diferencia para el siguiente compartimento
                 litros = litros - diferencia;
             }
-
             //mostramos los litros totales del acuario
             System.out.println(total);
         }
