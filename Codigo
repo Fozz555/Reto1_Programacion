@@ -1,7 +1,7 @@
 //Andres Ariza y Victor Foz
 import java.util.Scanner;
 public class Reto3 {
-    public static void reto3(String[] args) {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int numero = sc.nextInt();
         while (numero != 0) {
@@ -12,6 +12,9 @@ public class Reto3 {
                 suma = suma + num;
                 texto = texto.substring(1);
             }
+            System.out.println(suma);
+            numero = sc.nextInt();
         }
+        sc.close();
     }
 }
