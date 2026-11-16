@@ -15,6 +15,5 @@ public class Reto3 {
             System.out.println(suma);
             numero = sc.nextInt();
         }
-        sc.close();
     }
 }
