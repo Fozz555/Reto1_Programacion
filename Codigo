@@ -26,6 +26,5 @@ public class Main {
             can_chicles_envol = sc.nextInt();
             chicles = sc.nextInt();
         }
-        sc.close();
     }
 }
